@@ -1,0 +1,11 @@
+package revisao01;
+import java.util.Scanner;
+public class revisao01 {
+  public static void main(string[] args) {
+    String nome = "";
+    Scanner Lerteclado = new Scanner (System.in);
+    
+    System.out.println("Bem vindo");
+    System.out.println("Qual o seu nome?");
+    nome = LerTeclado.nextline();
+    System.out.println("Olá" +nome);
